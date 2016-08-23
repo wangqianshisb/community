@@ -1,0 +1,167 @@
+.content{
+	width:1000px;
+	padding:0px;
+	overflow:hidden;
+	margin:0px auto;
+	
+}
+.content a{
+	text-decoration:none;
+}
+.con_img{
+	height:300px;
+	width:100%;
+	background:url(../images/friends/con_pp.jpg);
+	background-size:100%;
+}
+.con_intro{
+	height:204px;
+	width:950px;
+	margin:10px auto;
+
+}
+.logo_xian{
+	margin:20px auto;
+	width:950px;
+	border:1px solid #BD8431;
+	
+}
+.con_head{
+	margin-top:10px;
+	text-align:center;
+	font-size:40px;
+}
+.con_int_refer{
+	height:200px;
+	width:800px;
+	margin:38px auto;
+}
+.con_girlleft{
+	float:left;
+	width:345px;
+	margin-right:10px;
+}
+.con_girlleft img{
+	float:left;
+	clear:both;
+	width:150px;
+	height:185px;
+	border:none;
+}
+.con_girl_intro{
+	float:right;
+	margin-top:20px;
+	margin-left:20px;
+}
+.cls{
+	clear:both;
+}
+
+.con_nanright{
+	float:right;
+	width:345px;
+	margin-right:10px;
+}
+.con_nanleft img{
+	float:left;
+	width:150px;
+	height:185px;
+	border:none;
+}
+
+.con_nan_intro{
+	float:right;
+	margin-top:20px;
+	margin-left:20px;
+}
+.logo_pic {
+	width:100%;
+	margin:0px auto;
+	height:68px;
+	text-align:center;
+}
+.logo_pic ul{
+	margin:0px;
+}
+.logo_pic ul li{
+	display:inline-block;
+	height:68px;
+	line-height:68px;
+	margin-left:80px;
+}
+.con_nanr{
+	zoom:0.85;
+}
+.logo_pic ul li a{
+	font-size:25px;
+	text-decoration:none;
+	color:#BD8431;
+}
+.logo_pic ul li a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.con_fj{
+	width:100%;
+	height:300px;
+	background:url("../images/friends/9.jpg");
+	background-size:100%;
+}
+.con_choose{
+	height:242px;
+	text-align:center;
+}
+.con_choose span{
+	font-size:30px;
+	color:#BD8431;
+}
+.con_choose a{
+	color:#bd8431;
+	text-decoration:none;
+}
+.con_find{
+	height:231px;
+	text-align:center;
+	background:#F4F4F4;
+}
+.con_find span{
+	font-size:30px;
+	color:#BD8431;
+}
+.con_find ul{
+	margin-top:40px;
+}
+.con_find ul li{
+	display:inline-block;
+	margin:0px;
+}
+.con_find ul li img{ 
+	width:110px;
+	height:130px;
+	padding-left:8px;
+	}
+.con_find ul li img:hover{ 
+	zoom:1.2;
+	}
+.con_yue{
+	height:203px;
+	text-align:center;
+}
+.con_yue span{
+	font-size:30px;
+	color:#BD8431;
+}
+.con_yue img{
+	border:1px solid white;
+	padding-top:30px;
+}
+#demo{overflow:hidden;width:530px; margin:20px auto;}
+#demo ul{list-style-type: none;margin: 0px;padding: 0px;}
+#demo ul li{ display:block;width:132px; height:155px; float:left; clear:none; text-align:center; line-height:30px;margin: 0px;padding: 0px;}
+#demo ul li img{ width:100px; height:120px; border:solid 2px #f1f1f1;}
+#demo ul li img:hover{
+	zoom:1.3;
+}
+#demo ul li a:hover img{border:solid 2px #F60;}
+.Productsimg{ width:528px; height:155px; margin-top:5px;}
+

@@ -1,0 +1,166 @@
+.food-bg{
+	width:1000px;
+}
+.food-bg img{
+	width:1000px;
+	height:200px;
+}
+.beef{
+	float:right;
+	width:200px;
+	height:666px;
+}
+.meat{
+	width:1000px;
+}
+.meat ul li img{
+	width:190px;
+	height:160px;
+	float:left;
+	margin-right:20px;
+}
+.meat ul li{
+	display: inline-block;
+	vertical-align:top;
+	margin-left:10px;
+	width:375px;
+	height:220px;
+}
+.meat h2{
+	font-family:"宋体";
+	font-size:18px;
+	color:#444;	
+}
+.meat p{
+	font-size:12px;
+	margin-top:20px;
+}
+.meat a{
+	font-size:8px;
+	color:#aaa;
+	text-decoration:none;
+}
+.split{
+	width:1000px;
+	height:60px;
+	margin-bottom:20px;
+	border-bottom:4px solid #BC8339;
+}
+.split p{
+	font-family: "bodoni mt";
+	font-size:25px;
+	line-height:60px;
+	color:#444;
+}
+.split .logo{
+	float:left;
+	padding-top:12px;
+}
+.cheesecake{
+	float:right;
+	width:200px;
+	height:666px;
+}
+.cake{
+	width:1000px;
+}
+.cake ul li img{
+	width:190px;
+	height:160px;
+	float:left;
+	margin-right:20px;
+}
+.cake ul li{
+	display: inline-block;
+	vertical-align:top;
+	margin-left:10px;
+	width:375px;
+	height:220px;
+}
+.cake h2{
+	font-family:"宋体";
+	font-size:18px;
+	color:#444;
+}
+.cake p{
+	font-size:12px;
+	margin-top:20px;
+}
+.cake a{
+	font-size:8px;
+	color:#aaa;
+	text-decoration:none;
+}
+.talent{
+	width:310px;
+	height:450px;
+	float:right;
+}
+.talent ul{
+	background-color:#f2f2f2;
+}
+.talent ul li{
+	width: 310px;
+	border-bottom:1px solid #ddd;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+.talent h2{
+	font-family:"宋体";
+	font-size:18px;
+	color:#444;
+}
+.talent a{
+	font-size:10px;
+	color:#BC8339;
+	text-decoration:none;
+}
+.food-input{
+	width:68px;
+	height:26px;
+	background-color:#BC8339;
+	color:white;
+	float:right;
+	margin-top:-22px;
+	margin-right:10px;
+}
+.talent img{
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+.focus-on{
+	width:65px;
+	height:25px;
+	float:right;
+	margin-top:-34px;
+	margin-right:10px;
+}
+.talent p{
+	font-size:10px;
+	color:#666;
+}
+.activity{
+	width:1000px;
+	height:500px;
+}
+.text h2{
+	font-family:"宋体";
+	font-size:18px;
+	color:#444;
+	margin-bottom:10px;
+}
+.text a{
+	font-size:10px;
+	color:#BC8339;
+	text-decoration:none;
+}
+.text p{
+	font-size:10px;
+	color:#666;
+}
+.text{
+	width:610px;
+	height:450px;
+	float:left;
+}

@@ -1,0 +1,203 @@
+/*banner*/
+.banner
+{
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+.banner img
+{
+  width: 1000px;
+  height: 400px;
+}
+.banner ul
+{
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  width: 986px;
+  font-size: 0;
+  transition: top 500ms;
+}
+.banner ul li
+{
+  display: inline-block;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  color: #dfa653;
+  font-size:18px;
+  font-weight: bold;
+  border-left: 1px solid #dfa653;
+  background-color: rgba(256,256,256,0.3);
+  cursor: pointer;
+}
+.banner ul li:first-child{border-left: 0;}
+.banner:hover ul
+{
+  top: -45px;
+}
+/*content*/
+.content .box-top
+{
+  padding-bottom: 10px;
+  border-bottom: 4px solid #bd8431;
+  background: url(../images/home/news.svg) no-repeat;
+}
+.content .box-top h2
+{
+  display: inline-block;
+  color: #40413c;
+  margin-left: 30px;
+}
+.content .box-top a
+{
+  display: inline-block;
+  position: relative;
+  left: 83%;
+  padding-right: 20px;
+  color: #40413c;
+  background: url(../images/home/more.svg) no-repeat 100% 50%;
+}
+.content .box-top a:hover
+{
+  color: #bd8431;
+  text-decoration: underline;
+}
+/*news*/
+.news ul,.foods ul,.pet ul,.travel ul,.sports ul,.fashion ul,.friends ul
+{
+  margin:0 auto;
+  width:900px;
+  font-size:0;
+}
+.news ul li,.sports ul li,.friends ul li
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  margin:10px 30px;
+}
+.news ul li h3,.pet ul li h3,.sports ul li h3,.fashion ul li h3,.friends ul li h3
+{
+  padding: 10px 0;
+  font-size: 20px;
+}
+.news ul li p,.sports ul li p,.friends ul li p
+{
+  margin: 10px 0;
+  font-size: 14px;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*pet*/
+.foods ul li,.pet ul li,.travel ul li,.fashion ul li
+{
+  display: inline-block;
+  margin:10px 30px;
+  text-align:center;
+  font-size:18px;
+}
+.pet ul li a img,.travel ul li a img,.fashion ul li a img
+{
+  width: 240px;
+  height: 200px;
+  box-shadow:5px 5px 5px #f3d365;
+}
+@keyframes myfirst
+{
+	0%{transform:rotate(0);}
+	25%{transform:rotate(10deg);}
+	50%{transform:rotate(0);}
+	75%{transform:rotate(-10deg);}
+	100%{transform:rotate(0);}
+}
+.pet ul li a img:hover
+{
+	animation:myfirst 500ms;
+}
+/*travel*/
+@keyframes mysecond
+{
+	0%{transform:rotateY(0);}
+	25%{transform:rotateY(40deg);}
+	50%{transform:rotateY(0);}
+	75%{transform:rotateY(-40deg);}
+	100%{transform:rotateY(0);}
+}
+.travel ul li a img:hover
+{
+	animation:mysecond 500ms;
+}
+/*sports*/
+.sports ul li:first-child a img
+{
+	margin:10px 10px 0 0;
+	width:70px;
+	height:100px;
+	float:left;
+}
+#sports-pic
+{
+	display:block;
+	margin:0 auto;
+	width:880px;
+}
+#sports-pic h3
+{
+	margin-left:12px;
+}
+#sports-pic a img
+{
+	margin:0 10px 10px;
+	width:200px;
+	border-radius:50px 0 50px 0;
+}
+#sports-pic a img:hover
+{
+	box-shadow:0 0 15px 10px rgba(236,125,23,.6);
+}
+/*fashion*/
+.fashion ul li p
+{
+	text-align:left;
+	width:240px;
+	height:50px;
+	font-size: 14px;
+	color: #666;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+/*foods*/
+.foods ul li .item
+{
+  display: block;
+  width: 240px;
+  height: 200px;
+  background-size: 240px 200px;
+  background-position:center;
+  box-shadow:5px 5px 5px #f3d365;
+  transition:background-size 500ms;
+}
+.foods ul li .item:hover
+{
+	background-size:300px 250px;
+}
+.foods ul li .breakfast
+{
+  background-image: url(../images/foods/food-beef.jpg);
+}
+.foods ul li .dessert
+{
+  background-image: url(../images/foods/matcha-cake.png);
+}
+.foods ul li .master
+{
+  background-image: url(../images/home/thumb.jpg);
+}

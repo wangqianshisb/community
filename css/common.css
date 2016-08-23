@@ -1,0 +1,173 @@
+﻿@import url("reset.css");
+/*header*/
+.header
+{
+  width: 100%;
+  background-color:#dedbcc;
+  text-align: center;
+}
+.header .logo
+{
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 250px;
+  height: 90px;
+  background: url(../images/home/logo.png) no-repeat center;
+  background-size: 80%;
+}
+.header form
+{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+}
+.header form input
+{
+  padding:0 10px;
+  vertical-align: middle;
+  height: 36px;
+  width: 300px;
+  border: 2px solid #bd8431;
+}
+.header form #btn-search
+{
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  background: #bd8431 url(../images/home/searchbg.png) no-repeat 10% 50%;
+}
+.header>input,.header span
+{
+  position: relative;
+  top: -40px;
+  left: 40px;
+  border: 0;
+  color: #bd8431;
+  font-size: 10px;
+  background-color: rgba(256, 256, 256, 0);
+  cursor: pointer;
+}
+.header span
+{
+  color: #40413c;
+  cursor: default;
+}
+/*nav*/
+.nav
+{
+  position: relative;
+  width: 100%;
+  background-color: #f8f5e4;
+}
+.nav ul
+{
+  width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.nav ul li
+{
+  padding: 10px 0;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  font: 20px "微软雅黑",KaiTi;
+}
+.nav ul li a
+{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  width: 60px;
+  height: 30px;
+  color: #40413c;
+}
+.nav ul li a:hover,.nav ul li .onthis
+{
+  border-bottom: 2px solid #000;
+}
+.nav ul li ul
+{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  width: 100%;
+  background-color: rgba(256,230,160,0.6);
+  z-index: 2;
+}
+.nav ul li:hover ul
+{
+  display: block;
+  font-size: 15px;
+}
+/*content*/
+.content
+{
+  position: relative;
+  margin: 20px auto;
+  width: 1000px;
+}
+/*footer*/
+.footer
+{
+  width: 100%;
+  background-color: #191a17;
+}
+.footer .totop
+{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+}
+.footer .totop img
+{
+	width:50px;
+	height:60px;
+}
+.footer ul
+{
+  margin: 0 auto;
+  width: 1000px;
+}
+.footer ul li
+{
+  display: inline-block;
+  padding: 10px;
+  width: 300px;
+  vertical-align: top;
+  color: #a3a68f;
+}
+.footer ul li h4
+{
+  display: inline-block;
+}
+.footer ul li p
+{
+  margin: 10px 0 0 28px;
+}
+.footer ul li>a
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/home/footer.svg);
+}
+.footer .contactus>a
+{
+  background-position: 0 -20px;
+}
+.footer .copyright>a
+{
+  background-position: 0 -120px;
+}
+.footer .feedback p a
+{
+  color: #37a;
+}
+/*default*/
+a{color: #bd8431;}

@@ -1,0 +1,55 @@
+.news{width:1040px;
+      margin:0 auto;}
+.news ul{width:1040px;
+      margin:0 auto;}
+.news ul li,.basketball-main li{display:inline-block;
+         margin:0 12px;
+		 line-height:25px;
+		 vertical-align:top;}
+.news h3{color:#b39113;}
+.football-main h2,.basketball-main h2,.news h2{padding:20px 0 10px 0;
+        color:#999;}
+.basketball-main p,.news p{font-size:14px;}
+.empty{width:100%;
+       border:1px solid #ccc;
+       margin:20px 0;}
+.empty-1{width:1038px;
+         margin:30px auto 30px;
+		 border:1px solid #ccc;}
+.basketball{width:1040px;
+            margin:0 auto;
+            background:url(../images/sports/title-1.jpg) no-repeat;}
+.line-b,.line-f{width:800px;margin-left:240px;
+                border:3px solid #b39113;}
+.basketball-nav ul{margin-left:500px;height:36px;}
+.football-nav  ul li,.basketball-nav ul li{display:inline-block;
+                                     margin:0 4pxs;
+	                                 color: #b39113;}
+.basketball-main{width:1040px;
+                 margin:0 auto;}
+.basketball-main span{font-size:12px;}
+	  
+.basketball-main li{display:inline-block;
+                  vertical-align:top;}
+.football{width:1040px;
+          margin:0 auto;
+		   background:url(../images/sports/title-2.jpg) no-repeat;}
+
+.football-nav ul{margin-left:480px;height:35px;}
+.football-nav  ul li{display:inline-block;
+                 margin:0 4px;
+	             color: #b39113;}
+.football-main li{display:inline-block;
+           margin:0 5px;
+		   line-height:25px;
+		   vertical-align:top;}
+.football-main span{white-space:pre;}
+
+.photos{width:1040px;
+        margin:0 auto;
+		background:url(../images/sports/title-3.jpg) no-repeat;}
+.line-p{width:610px;height:34px;
+       border-bottom:6px solid  #b39113;
+	   margin:0 0 20px 429px;}
+.photos img{margin:0 10px 5px 0;
+			vertical-align:top;float:left;}	   
