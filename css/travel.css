@@ -11,10 +11,6 @@
 	margin:0 auto;
 	border-bottom:5px solid  #bd8431;
 }
-.travel-content p
-{
-	text-align:center;
-}
 .travel-content marquee
 {
 	width:600px;
@@ -25,7 +21,7 @@
 	font-size:30px;
 	font-weight:bolder;
 	margin-top:15px;
-	margin-left:320px;
+	text-align:center;
 	color:#bd8431;
 }
 .text-travel1{
