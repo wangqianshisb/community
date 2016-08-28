@@ -34,6 +34,7 @@
 .meat p{
 	font-size:12px;
 	margin-top:20px;
+	color:#666
 }
 .meat a{
 	font-size:8px;
@@ -85,6 +86,7 @@
 .cake p{
 	font-size:12px;
 	margin-top:20px;
+	color:#666;
 }
 .cake a{
 	font-size:8px;
@@ -95,9 +97,6 @@
 	width:310px;
 	height:450px;
 	float:right;
-}
-.talent ul{
-	background-color:#f2f2f2;
 }
 .talent ul li{
 	width: 310px;
@@ -158,6 +157,7 @@
 .text p{
 	font-size:10px;
 	color:#666;
+	line-height:20px;
 }
 .text{
 	width:610px;
