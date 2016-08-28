@@ -105,17 +105,11 @@
 	margin:10px auto;
 	border-bottom:5px solid  #bd8431;
 }
-.content-beijing-picture:hover{
-	width:600px;
-}
 .head:hover{
 	background-image:url("../images/travel/travel-8.jpg")
 }
 .content-shanghai-picture{
 	float:left;
-}
-.content-shanghai-picture:hover{
-	width:450px;
 }
 .text-travel-a a{
 	text-decoration:none;
