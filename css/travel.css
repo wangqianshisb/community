@@ -6,10 +6,15 @@
 	background-image:url("../images/travel/travel-2.jpg")
 }
 .travel-content{
-	width:800px;
+	width:1000px;
 	height:70px;
 	margin:0 auto;
 	border-bottom:5px solid  #bd8431;
+}
+.travel-content marquee
+{
+	width:600px;
+	margin:0 200px;
 }
 .text-travel{
 	text-transform:capitalize;
