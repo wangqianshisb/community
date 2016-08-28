@@ -17,6 +17,7 @@
 	font-weight:bolder;
 	margin-top:15px;
 	margin-left:320px;
+	color:#bd8431;
 }
 .text-travel1{
 	font-size:20px;
@@ -24,6 +25,7 @@
 	margin-left:700px;
 	margin-top:-25px;
 	float:left;
+	
 }
 .text-travel-a{
 	font-size:30px;
@@ -37,12 +39,22 @@
 }
 .inner{
 	width:1000px;
-	height:300px;
+	height:250px;
 	margin:0 auto;
 }
 .text-travel3{
 	font-size:18px;
 	color:#191a17;
+	padding:25px;
+	margin-top:-15px;
+	text-indent:2em;
+}
+.text-travel4{
+	font-size:18px;
+	color:#191a17;
+	padding:25px;
+	margin-top:-30px;
+	text-indent:2em;
 }
 .content-beijing{
 	width:1000px;
@@ -54,54 +66,80 @@
 	border-bottom:5px solid  #bd8431;
 }
 .text-beijing{
-	font-size:50px;
+	font-size:40px;
 	font-family:kaiti;
 	margin-top:-1px;
+	color:#bd8431;
 }
 .content-beijing-left{
-	width:500px;
+	width:460px;
 	height:600px;
 	margin-left:00px;
 	float:left;
 	clear:both;
-	
+	overflow:hidden;
+}
+.content-beijing-left img{
+	transition:all 1s;
+}
+.content-beijing-left img:hover{
+	transform:scale(1.1)
+}
+.content-beijing-picture{
+	width:460px;
 }
 .text-beijing1{
 	font-size:22px;
 	font-weight:bold;
-	margin-top:-1px;
 	color:#bd8431;
+}
+.content-beijing-left p{
+	text-indent:2em;
 }
 .text-beijing2{
 	font-size:18px;
-	margin-top:-20px;
+	
 	color:#191a17;
 }
 .content-beijing-right{
-	width:500px;
+	width:460px;
 	height:600px;
 	margin-left:510px;
-	
-	
+}
+.content-beijing-right img:hover{
+	transform:scale(0.9);
+}
+.content-beijing-right img{
+	transition:all 1s;
 }
 .content-beijing-left1{
-	width:500px;
+	width:460px;
 	height:600px;
 	margin-top:120px;
 	float:left;
 	clear:both;
-	
+}
+.content-beijing-left1 img{
+	transition:all 1s;
+}
+.content-beijing-left1 img:hover{
+	border-radius:30% 30% 30% 30%;
 }
 .content-beijing-right1{
-	width:500px;
+	width:460px;
 	height:600px;
 	margin-left:510px;
 	margin-top:122px;
-	
+}
+.content-beijing-right1 img{
+	transition:all 1s;
+}
+.content-beijing-right1 img:hover{
+	border-radius:30% 30% 30% 30%;
 }
 .content-shanghai{
 	width:1000px;
-	height:750px;
+	height:650px;
 	margin:10px auto;
 	border-bottom:5px solid  #bd8431;
 }
@@ -129,11 +167,11 @@
 	border:5px solid white;
 }
 .text-newyork{
-	font-size:45px;
+	font-size:40px;
 	font-weight:bold;
 	margin-top:10px;
 	margin-left:50px;
-	
+	color:#bd8431;
 }
 .newyork-picture1{
 	position:absolute;
