@@ -11,6 +11,10 @@
 	margin:0 auto;
 	border-bottom:5px solid  #bd8431;
 }
+.travel-content p
+{
+	text-align:center;
+}
 .travel-content marquee
 {
 	width:600px;
