@@ -55,6 +55,12 @@
 		border:1px solid #999;
 		margin-left:40px;
 		}
+		
+.p{font-size:12px;
+   margin-left:20px;
+}		
+		
+		
 .news-shoes ul li:hover,.news ul li:hover,.hot ul li:hover{box-shadow:0 0 20px #999;}
 		
 .hot ul li p{font-size:15px;
@@ -111,18 +117,18 @@
 		 border:1px solid #999;
 		 }
 		 
-.news ul li p{float:left;
-          margin-left:10px;
-		  }		 
+.news ul li p a{float:left;
+	        margin-left:10px;
+}		 
 		
 .news-shoes{width:1000px;
             height:600px;
-			background:#ccc;
-			margin:0 auto;}
+	background:#ccc;
+	margin:0 auto;}
 			
 .life h1,.news-shoes h1{text-align:center;
                        margin-top:40px;
-					   margin-bottom:30px;}
+                margin-bottom:30px;}
 
 .news-shoes span{color:#999;}
 
@@ -148,7 +154,9 @@
 	     overflow:hidden;
          white-space:nowrap;
          text-overflow:ellipsis;
-		 text-align:left;}	
+		 text-align:left;}
+
+.news-shoes h3{text-align:center;
 		 }
 .serve{width:1000px;
        height:200px;
