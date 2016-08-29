@@ -52,6 +52,7 @@
 	float:right;
 	margin-top:20px;
 	margin-left:20px;
+	color:#BD8431;
 }
 .cls{
 	clear:both;
@@ -73,6 +74,7 @@
 	float:right;
 	margin-top:20px;
 	margin-left:20px;
+	color:#BD8431;
 }
 .logo_pic {
 	width:100%;
@@ -134,14 +136,17 @@
 .con_find ul li{
 	display:inline-block;
 	margin:0px;
+	width:120px;
+	height:133px;
+	overflow:hidden;
 }
 .con_find ul li img{ 
-	width:110px;
-	height:130px;
+	width:120px;
+	height:133px;
 	padding-left:8px;
 	}
 .con_find ul li img:hover{ 
-	zoom:1.2;
+	transform:scale(1.3);
 	}
 .con_yue{
 	height:203px;
@@ -156,12 +161,11 @@
 	padding-top:30px;
 }
 #demo{overflow:hidden;width:530px; margin:20px auto;}
+
 #demo ul{list-style-type: none;margin: 0px;padding: 0px;}
+
 #demo ul li{ display:block;width:132px; height:155px; float:left; clear:none; text-align:center; line-height:30px;margin: 0px;padding: 0px;}
 #demo ul li img{ width:100px; height:120px; border:solid 2px #f1f1f1;}
-#demo ul li img:hover{
-	zoom:1.3;
-}
 #demo ul li a:hover img{border:solid 2px #F60;}
 .Productsimg{ width:528px; height:155px; margin-top:5px;}
 
